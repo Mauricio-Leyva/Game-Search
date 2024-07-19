@@ -36,3 +36,197 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Custom Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-blue-500 {
+  color: #3498db;
+}
+
+.hover:underline {
+  text-decoration: underline;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.list-disc {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.pl-5 {
+  padding-left: 20px;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gap-4 {
+  gap: 16px;
+  }
+  
+  .rounded-md {
+  border-radius: 0.25rem;
+  }
+  
+  .overflow-hidden {
+  overflow: hidden;
+  }
+  
+  .w-full {
+  width: 100%;
+  }
+  
+  .h-auto {
+  height: auto;
+  }
+  
+  .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .max-w-lg {
+  max-width: 32rem;
+  }
+  
+  .max-w-md {
+  max-width: 28rem;
+  }
+  
+  .p-2 {
+  padding: 8px;
+  }
+  
+  .p-4 {
+  padding: 16px;
+  }
+  
+  .mb-2 {
+  margin-bottom: 8px;
+  }
+  
+  .mb-4 {
+  margin-bottom: 16px;
+  }
+  
+  .text-2xl {
+  font-size: 1.5rem;
+  }
+  
+  .text-3xl {
+  font-size: 2rem;
+  }
+  
+  .font-bold {
+  font-weight: 700;
+  }
+  
+  .text-center {
+  text-align: center;
+  }
+  
+  .flex {
+  display: flex;
+  }
+  
+  .flex-wrap {
+  flex-wrap: wrap;
+  }
+  
+  .justify-center {
+  justify-content: center;
+  }
+  
+  .items-center {
+  align-items: center;
+  }
+  
+  .bg-blue-500 {
+  background-color: #3498db;
+  }
+  
+  .text-white {
+  color: #ffffff;
+  }
+  
+  .hover:bg-blue-600 {
+  transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hover:bg-blue-600:hover {
+  background-color: #2980b9;
+  }
